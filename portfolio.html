@@ -12,35 +12,38 @@
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&family=Sen:wght@700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/modern-normalize.css">
 </head>
 
 <body>
     <header class="header">
         <div class="container">
-            <nav class="navbar">
-                <a class="navbar__logo" href="index.html"><span>Web</span>Studio</a>
-                <div class="collapse navbar_collapse" id="navbarToggler">
-                    <ul class="navbar__nav nav">
-                        <li class="nav__item">
-                            <a class="nav__link" href="index.html">Студия</a>
-                        </li>
-                        <li class="nav__item">
-                            <a class="nav__link" href="portfolio.html">Портфолио</a>
-                        </li>
-                        <li class="nav__item">
-                            <a class="nav__link" href="#">Контакты</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-            <ul class="header__address">
-                <li class="nav__item">
-                    <a class="nav__link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                </li>
-                <li class="nav__item">
-                    <a class="nav__link" href="tel:+380961111111">+38 096 111 11 11</a>
-                </li>
-            </ul>
+            <div class="header__container">
+                <nav class="navbar">
+                    <a class="navbar__logo" href="index.html"><span>Web</span>Studio</a>
+                    <div class="collapse navbar_collapse" id="navbarToggler">
+                        <ul class="navbar__nav nav">
+                            <li class="nav__item">
+                                <a class="nav__link" href="index.html">Студия</a>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__link" href="portfolio.html">Портфолио</a>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__link" href="#">Контакты</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <ul class="header__address">
+                    <li class="nav__item">
+                        <a class="nav__link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="tel:+380961111111">+38 096 111 11 11</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </header>
     <main>
@@ -48,11 +51,11 @@
             <div class="container">
                 <h1>Портфоліо</h1>
                 <ul class="portfolio__filter filter">
-                    <li class="filter__item"><button class="filter-link" type="button">Все</button></li>
-                    <li class="filter__item"><button class="filter-link" type="button">Веб-сайты</button></li>
-                    <li class="filter__item"><button class="filter-link" type="button">Приложения</button></li>
-                    <li class="filter__item"><button class="filter-link" type="button">Дизайн</button></li>
-                    <li class="filter__item"><button class="filter-link" type="button">Маркетинг</button></li>
+                    <li class="filter__item"><button class="filter__btn" type="button">Все</button></li>
+                    <li class="filter__item"><button class="filter__btn" type="button">Веб-сайты</button></li>
+                    <li class="filter__item"><button class="filter__btn" type="button">Приложения</button></li>
+                    <li class="filter__item"><button class="filter__btn" type="button">Дизайн</button></li>
+                    <li class="filter__item"><button class="filter__btn" type="button">Маркетинг</button></li>
                 </ul>
                 <ul class="portfolio__list">
                     <li class="portfolio__item">
